@@ -1,6 +1,35 @@
 @charset "ISO-8859-1";
 
+body{
+	background-color: tan
+}
 
-body {
-	background-color: red;
+.navigation-bar a:hover{
+	color: black;
+	border-style: solid;
+}
+
+
+.navigation-bar ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hideen;
+	background-image: linear-gradient(to right, #3d8be3, #e68a22);
+}
+
+.navigation-bar li, a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px 8px;
+	text-decoration: none;
+}
+
+.icon8 img{
+	width: 65px;
+	margin-top: -4px;
+	margin-right: 40px;
 }
