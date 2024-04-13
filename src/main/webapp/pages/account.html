@@ -11,9 +11,30 @@
 		<ul class="navigation-list">
 			<li class="icon8"><img src="../images/icon8.png" alt="icon8"></li>
 			<li><a href="../home.html">Home</a></li>
-			<li><a href="../pages/visualizer.html"">Visualizer</a></li>
+			<li><a href="../pages/visualizer.html">Visualizer</a></li>
 			<li><a href="../pages/account.html" media="screen">Login/Sign-Up</a></li>
 		</ul>
+	</div>
+	
+	
+	<div class="loginContainer">
+	
+		<form action="LoginServlet" method="post">
+		<h1>Login</h1>
+		<div>
+			<label for="fname">First name:</label>
+			<input id="username" type="text" id="fname" name="userId"> <br>
+		</div>
+		
+		<div>
+			<label for="llast">Last name:</label>
+			<input id="password" type="text" id="lname" name="password"> <br>
+		</div>
+			<button  id="submit" type="submit">Login</button>
+			<button id="newAccount" type="submit">Create Account</button>
+			
+		</form>
+		
 	</div>
 	
 </body>
