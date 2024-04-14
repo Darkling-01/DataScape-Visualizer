@@ -24,7 +24,7 @@ body{
 
 .navigation-bar li, a{
 	display: block;
-	color: black;
+	color: #ebe8e1;
 	text-align: center;
 	padding: 10px 8px;
 	text-decoration: none;
@@ -32,6 +32,7 @@ body{
 
 .loginContainer{
 	text-align: center;
+	color: #ebe8e1;
 }
 
 
@@ -52,8 +53,28 @@ body{
 }
 
 
+
 .icon8 img{
 	width: 65px;
 	margin-top: -4px;
 	margin-right: 40px;
 }
+
+.dashboard img{
+	margin-right: 40px;
+}
+
+
+.homeParagraph, .homeTitle{
+	text-align: center;
+	color: #ebe8e1;
+}
+
+.homeParagraph p{
+	width: 66%;
+	position: relative;
+	top: 130px;
+	
+}
+
+
